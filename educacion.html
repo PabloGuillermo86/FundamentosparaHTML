@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content=“Pablo Guillermo”>
+		<meta name="description" content=“Hoja de Vida digital“>
+		<title>Hoja de Vida</title>
+	</head>
+	<body>
+		<svg width="150px" height="150px" viewBox="0 0 150 150">
+			<image width="150px" height="150px" xlink:href="images/logo.svg"></image>
+		</svg>
+		<header>
+			<h2>Nombres: Pablo Rigoberto</h2>
+			<h2>Apellidos: Guillermo Anguisaca</h2>
+			<h3>Fecha de nacimiento:11 de febrero de 1986</h3>
+			<h3>Lugar de nacimiento: Canton Paute</h3>
+		</header>
+		<br>
+		<nav>
+			<a href="index.html">Inicio</a>
+			|
+			<a href="educacion.html">Educación</a>
+			|
+			<a href="experiencia.html">Experiencia</a>
+		</nav>
+		<br>
+		  <h2> Educación </h2>
+		<table border="1" cellpadding="5" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Intitución</th>
+					<th>Lugar</th>
+					<th>¿Culmino?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2014</td>
+					<td>SERCOP</td>
+					<td>CUENCA</td>
+					<td>SI</td>
+					</tr>
+				<tr>
+					<td>2015</td>
+					<td>AME</td>
+					<td>QUITO</td>
+					<td>SI</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>DINARDAP</td>
+					<td>GUAYAQUIL</td>
+					<td>SI</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+		<h2>Agregar estudios</h2>
+		<form action="educacion.html">
+		<p>
+			<label for="anio">Año: </label>
+			<select name="anio">
+				<option value="1">2019</option>
+				<option value="1">2018</option>
+				<option value="1">2017</option>
+				<option value="1">2016</option>
+				<option value="1">2015</option>
+				<option value="1">2014</option>
+				<option value="1">2013</option>
+				<option value="1">2012</option>
+				<option value="1">2011</option>
+				<option value="1">2010</option>
+			</select>
+		</p>
+		<p>
+			<label for="institucion">Institución:</label>
+			<input type="text" name="institucion" placeholder="Ej: SERCOP" required>
+		</p>
+		<p>
+			<label for="lugar">Lugar: </label>
+			<textarea name="lugar" id="" cols="20" rows="3"></textarea>
+		</p>
+
+		<p>
+			<input type="submit" value="Enviar">
+		</p>
+		</form>
+		<footer>
+			Email: guillermo.pablo2014@hotmail.com
+			<br>
+		  Telefono: 0988848054
+			<br>
+			Direccion: Cantón Paute
+		</footer>
+	</body>
+</html>
